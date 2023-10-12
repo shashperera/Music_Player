@@ -1,8 +1,8 @@
 # Music_Player
 Kotlin-Android Simple Music Player - an app that can play music in the background.
 
+![demo](https://github.com/shashperera/Music_Player/assets/40666122/d33dc592-0033-4de4-80c6-373d7fbdfcbf)
 
-![WhatsApp Image 2023-10-13 at 00 52 36_7d461ffb](https://github.com/shashperera/Music_Player/assets/40666122/4e2b9f00-cdd1-49d4-9073-1d2f3da448ee)
 
 ## Creating a Music Player App using Android Services 
 ### Android Services 
