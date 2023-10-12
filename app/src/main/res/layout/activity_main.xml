@@ -23,6 +23,7 @@
         android:layout_width="88dp"
         android:layout_height="66dp"
         android:layout_marginBottom="280dp"
+        android:background="@color/design_default_color_secondary"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/btnPlayPause"
         app:layout_constraintHorizontal_bias="0.5"
@@ -34,6 +35,7 @@
         android:layout_width="84dp"
         android:layout_height="76dp"
         android:layout_marginBottom="276dp"
+        android:background="@color/material_dynamic_primary70"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -41,11 +43,12 @@
         app:srcCompat="@android:drawable/ic_media_pause" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/musicTV"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:ellipsize="none"
         android:text="Music Player"
-        android:textSize="16sp"
+        android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/tvMusicTitletvMusicTitle"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
